@@ -142,7 +142,8 @@ void MMEHookSample::EndScene()
 
    /*
     * We can use ExpGetXXX() that MMD standard function, We do not know which effects are applied.
-    * We use data set by MME to acquire data on MMD, effect->GetXXX().
+    * We use data set by MME to acquire data on MMD, effect->GetXXX(). (TODO: Check if it can actually be acquired)
+    *
     * There are two timings that can be acquired.
     * hook-point1:
     *   If you get here, the process is blocked.
