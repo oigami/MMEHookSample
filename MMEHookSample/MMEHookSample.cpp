@@ -75,7 +75,7 @@ void MMEHookSample::D3DXCreateEffectFromFileExW(LPDIRECT3DDEVICE9& pDevice, LPCW
   D3DXMACRO endData;
   myMacro.Name = nullptr;
   myMacro.Definition = nullptr;
-  macros.push_back(myMacro);
+  macros.push_back(endData);
 
   // do not local pointer.
   pDefines = macros.data();
