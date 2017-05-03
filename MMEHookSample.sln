@@ -5,6 +5,19 @@ VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MMEHookSample", "MMEHookSample\MMEHookSample.vcxproj", "{36B4F551-CBDB-4400-898E-66BD5B6FF0A2}"
 EndProject
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "MikuMikuDance", "C:\tool\MikuMikuDance_v926x64\MikuMikuDance.exe", "{32A654A4-B25D-4D38-BB11-32AD343157FB}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = C:\tool\MikuMikuDance_v926x64\MikuMikuDance.exe
+		RemoteMachine = T45157DR-PC
+		StartingDirectory = C:\tool\MikuMikuDance_v926x64
+		Environment = 既定
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		UseLegacyDebugEngines = No
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -15,6 +28,8 @@ Global
 		{36B4F551-CBDB-4400-898E-66BD5B6FF0A2}.Debug|x64.Build.0 = Debug|x64
 		{36B4F551-CBDB-4400-898E-66BD5B6FF0A2}.Release|x64.ActiveCfg = Release|x64
 		{36B4F551-CBDB-4400-898E-66BD5B6FF0A2}.Release|x64.Build.0 = Release|x64
+		{32A654A4-B25D-4D38-BB11-32AD343157FB}.Debug|x64.ActiveCfg = Release|x64
+		{32A654A4-B25D-4D38-BB11-32AD343157FB}.Release|x64.ActiveCfg = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
