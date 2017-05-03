@@ -2,6 +2,7 @@
 
 ## Requirement
 * Visual Studio 2015 or 2017
+* Microsoft DirectX SDK (June 2010)
 * MikuMikuDance ver9.26 x64
 * [MMDPlugin ver0.4 and above](https://bowlroll.net/file/135503)
 * MikuMikuEffect ver0.37 and above
